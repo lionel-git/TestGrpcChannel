@@ -21,27 +21,5 @@
     <ClCompile Include="Worker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Commands2.grpc.pb.cc">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Commands2.pb.cc">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="build_proto.bat">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="Commands2.proto">
-      <Filter>Source Files</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Commands2.grpc.pb.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Commands2.pb.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

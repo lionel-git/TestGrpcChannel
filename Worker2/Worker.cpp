@@ -13,5 +13,7 @@ void do_work(int value)
 
 	// Will lock on destructor at prg exit!
 	G_channel = grpc::CreateCustomChannel("localhost:4444", grpc::InsecureChannelCredentials(), args);
+	//
+
 	std::cout << "Done work" << std::endl;
 }
